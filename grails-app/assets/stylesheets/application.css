@@ -9,5 +9,6 @@
 *
 *= require bootstrap
 *= require mobile
+*= require signin
 *= require_self
 */
