@@ -9,7 +9,11 @@ dependencies:
 - file:/home/francois/.gradle/caches/modules-2/files-2.1/org.grails.plugins/scaffolding/3.2.0/fce5425afc23f3121ce28fa15d2318ceadd4c16f/scaffolding-3.2.0.jar
 - file:/home/francois/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate4/5.0.1/7b3c808493a4cde1bafeaf41fa70eb1096fb245d/hibernate4-5.0.1.jar
 - file:/home/francois/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-ehcache/4.3.11.Final/cea0e6aba102c00cf899bd547c338fcf54468433/hibernate-ehcache-4.3.11.Final.jar
+<<<<<<< HEAD
 - file:/home/francois/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-ldap/3.0.1/f19a6d0baada8c5f27d6b9ee1a72ab3f03006179/spring-security-ldap-3.0.1.jar
+=======
+- file:/home/francois/.gradle/caches/modules-2/files-2.1/com.unboundid/unboundid-ldapsdk/3.1.0/b2f6427975d83a28ca0e22be52ee696809e7ae04/unboundid-ldapsdk-3.1.0.jar
+>>>>>>> 669f6c7c1d463f42841150e53179ec38e2d00fa2
 - file:/home/francois/.gradle/caches/modules-2/files-2.1/org.grails.plugins/asset-pipeline/3.0.15/2076efba1e7c0f38b60dcb6dd096f83857ada431/asset-pipeline-3.0.15.jar
 - file:/home/francois/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.190/df71536d44e3b07f0c15bb632cac51956c55fc3e/h2-1.4.190.jar
 - file:/home/francois/.gradle/caches/modules-2/files-2.1/org.grails.plugins/grails-console/2.0.4/59c18849f7cc7151190d3bfcc6b59897ea5f078/grails-console-2.0.4.jar

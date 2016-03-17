@@ -1,2 +1,2 @@
-devDb.mv.db
-./gradle
+*.db
+gradle/*
