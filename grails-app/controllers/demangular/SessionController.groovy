@@ -29,18 +29,20 @@ class SessionController {
     		  render(view:'/index')
     	   }else{
     		  log.error "failure"
-              flash.message = "Error authenticating"
-    		  redirect(controller: "session", action: "new")
+              flash.error = "Error authenticating"
+    		  redirect(controller: "session", action: "index")
     	   }
+    	//gestion des exceptions tres basique et a ameliorer
         }catch(Exception e){
         	log.error e.message
-            flash.message = e.message
-            redirect(controller: "session", action: "new")
+            flash.error = e.message
+            redirect(controller: "session", action: "index")
         }
     }
 
     def destroy() { 
         session["login"] = null
-        redirect(controller: "session", action: "create")
+        flash.message = "You're now logged out"
+        redirect(controller: "session", action: "index")
     }
 }

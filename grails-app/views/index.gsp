@@ -8,6 +8,7 @@
 </head>
 <body>  
     <div class="container">
+        <div class="row"><g:link controller="session" action="destroy">Logout</g:link></div>
         <div class="row" ng-controller="MyController as ctrl">
             <div class="alert alert-danger" role="alert" ng-show="ctrl.error!=null">{{ctrl.error}}</div>
             <h1>To do list</h1>

@@ -7,10 +7,12 @@
 	</head>
 	<body>
 		<div id="container">
-			<g:if test="${flash.message}">
-  				<div class="alert alert-error" style="display: block">${flash.error}</div>
+			<g:if test="${flash.error}">
+  				<div class="alert alert-danger">${flash.error}</div>
 			</g:if>
-			<p>test: ${flash.error}</p>
+			<g:if test="${flash.message}">
+  				<div class="alert alert-success">${flash.message}</div>
+			</g:if>
 			<g:form controller="session" action="create" method="POST" class="form-signin">
 				<h2 class="form-signin-heading">Please sign in</h2>
 				<label for="login" class='sr-only'>Login</label>

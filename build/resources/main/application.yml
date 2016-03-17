@@ -8,7 +8,7 @@ hibernate:
 
 config:
     ldap:
-        bind-filter: "uid=${login},ou=people,dc=sli,dc=dom"
+        bind-filter: 'uid=${login},ou=people,dc=sli,dc=dom'
         host: '10.125.0.64'
         port: 1390
 
