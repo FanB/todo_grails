@@ -120,3 +120,17 @@ grails:
 endpoints:
     jmx:
         unique-names: true
+
+---
+grails:
+   plugin:
+      springsecurity:
+         ldap:
+            context:
+               managerDn: 'cn=Directory Manager,dc=sli,dc=dom'
+               managerPassword: 'sakajimo'
+               server: 'ldap://10.125.0.64:1390'
+            search:
+               base: 'ou=people,dc=sli,dc=dom'
+            password:
+               algorithm: 'text'
